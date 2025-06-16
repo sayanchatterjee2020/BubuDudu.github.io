@@ -8,6 +8,10 @@
 body {
   background-color: #ffe6f0 !important;
 }
+.span{
+  color: rgb(255, 255, 0)
+  font-weight: bold;
+}
 
 /* Navbar ====================================== >>> */
 
