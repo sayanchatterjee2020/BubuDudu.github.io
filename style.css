@@ -139,7 +139,7 @@ body {
 }
 
 .modal-title {
-  font-family: 'Great Vibes', cursive;
+/*   font-family: 'Great Vibes', cursive; */
   font-size: 2.5rem;
   color: #d6336c;
 }
@@ -152,7 +152,7 @@ body {
 
 .signature {
   margin-top: 30px;
-  font-family: 'Great Vibes', cursive;
+/*   font-family: 'Great Vibes', cursive; */
   font-size: 1.6rem;
   text-align: right;
 }
