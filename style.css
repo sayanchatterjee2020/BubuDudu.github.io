@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: #ffe6f0 !important;
+}
+
+/* Navbar ====================================== >>> */
+
+.navigation_bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-color: #ffe6f0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-brand img {
+  height: 3rem;
+}
+
+.navbar a {
+  color: rgb(70, 70, 70);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Time ======================================== >>>*/
+#home {
+  background-color: #ffe6f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.love-card {
+  background-color: #ff4d88;
+  color: white;
+  border-radius: 15px;
+  padding: 30px 20px;
+  margin-top: 80px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.love-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.time-box {
+  background: white;
+  color: #ff4d88;
+  border-radius: 10px;
+  padding: 15px 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  min-width: 90px;
+}
+
+.time-label {
+  font-size: 0.9rem;
+  margin-top: 5px;
+  font-weight: 500;
+  color: white;
+}
+
+.footer-note {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  opacity: 0.9;
+}
+
+
+/* purano sei diner kotha ======================== */
+#our_journey {
+  /* height: 100vh; */
+}
+
+#our_journey h1{
+  color: darkslategray;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.purano_sei_diner_kotha {
+  display: flex;
+  justify-content: center;
+}
+
+.purano_sei_diner_kotha img {
+  width: 40rem;
+}
+
+/* .col-12 img {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+  border: 4px solid #ffffff;
+  border-radius: 1rem;
+} */
+
+
+
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.button img {
+  width: 30rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+  border: 4px solid #ffffff;
+  border-radius: 1rem;
+  transition: transform 0.3s;
+}
+
+.button img:hover {
+  transform: scale(1.05);
+}
+
+
+/* Letter ================================== >>> */
+/* .modal-content {
+  font-family: 'Dancing Script', cursive;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.modal-title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5rem;
+  color: #d6336c;
+}
+
+.modal-body {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  color: #a80038;
+}
+
+.signature {
+  margin-top: 30px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.6rem;
+  text-align: right;
+} */
+
+
+
+
+
+
+
+#secretMessage {
+  font-size: 1.5rem;
+  color: #d6336c;
+  display: none;
+  margin-top: 20px;
+}
+
+#surprise .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.btn img {
+  width: 6rem;
+}
+
+
+
+
+
+
+/* Footer ============================================ >>> */
+#footer {
+  /* height: 60vh; */
+  background-color: darkslategray;
+}
+
+#footer h3 {
+  color: white;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#footer span {
+  color: #ffd900;
+}
+
+#footer a {
+  text-decoration: none !important;
+  color: white;
+}
+
+.top {
+  background-color: rgb(59, 99, 99);
+}
+
+#footer p {
+  margin: 0;
+  padding: 0;
+}
